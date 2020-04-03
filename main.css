@@ -1,0 +1,47 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .logo {
+  border: 1pt solid black;
+  font-weight: 700;
+  padding: 5px 15px;
+  margin: 5% 0 0 5%;
+}
+nav #bar {
+  margin-top: 5%;
+  width: 65%;
+  text-align: center;
+}
+nav #bar a {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #4b4a4a;
+  margin-left: 3%;
+}
+nav #bar a:hover {
+  color: black;
+  font-size: 12pt;
+}
+nav #search {
+  border: 1pt solid black;
+  width: 20%;
+  height: 30px;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+nav #search p {
+  color: gray;
+  font-weight: 300;
+  padding: 5px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */
